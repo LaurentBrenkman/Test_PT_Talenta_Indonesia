@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import './styles/Landing.css'
-import './styles/Login.css'
-import './styles/Member.css'
+import './assets/styles/Login.css'
+import './assets/styles/Landing.css'
+import './assets/styles/Member.css'
 import App from './App';
 import {BrowserRouter as Router} from "react-router-dom"
 import "bootstrap/dist/css/bootstrap.min.css"
