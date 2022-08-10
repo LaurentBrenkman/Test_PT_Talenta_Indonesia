@@ -16,3 +16,9 @@
     width: 30%;
     margin-bottom: 30px;
 }
+.btn-download {
+    margin-top: 50px;
+    background-color: aquamarine !important;
+    border: none !important;
+    color: black !important;
+}

@@ -146,7 +146,7 @@ return (
         </Col>
         </Row>
         <BarChart />
-        <Button>Download File</Button>
+        <Button className='btn-download'>Download File</Button>
     </Container>
     <DeleteData
         setConfirmDelete={setConfirmDelete}
