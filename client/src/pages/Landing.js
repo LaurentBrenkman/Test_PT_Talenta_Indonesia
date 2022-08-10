@@ -45,7 +45,6 @@ const handleDelete = (id) => {
 const deleteById = useMutation(async (id) => {
     try {
     await API.delete(`/member/${id}`);
-    // refetch();
     } catch (error) {
     console.log(error);
     }
@@ -146,7 +145,7 @@ return (
         </Col>
         </Row>
         <BarChart />
-        <Button className='btn-download'>Download File</Button>
+        <Button className='btn-download'>Download File Pdf</Button>
     </Container>
     <DeleteData
         setConfirmDelete={setConfirmDelete}
